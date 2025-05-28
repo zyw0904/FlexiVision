@@ -55,6 +55,23 @@ In order to further demonstrate the reasoning performance of FlexiVision on diff
 
 In order to enhance the comparative evaluation of FlexiVision and the current mainstream intelligent video analysis framework, we also conducted experimental tests on the current mainstream video analysis frameworks DeepStream and mxVision, the results of the experiment are shown in the figure below.
 
+![](./docs/图5.png)
+
+In the following table, we compare FlexiVision with DeepStream and mxVision based on its ability to adapt to heterogeneous edge devices and real-time performance.
+
+|           **performance analysis**|
+| **Framework** | **Equipment** | **Model** | **FPS** |
+|---------------|---------------|-----------|---------|
+| FlexiVision   |Jetson TX2/Raspberry Pi 4 + Coral USB Accelerator/Raspberry Pi 4 + Intel NCS2| MobileNet-SSD v2/DeepLabV3+ | 10-30 |
+| DeepStream    |Jetson TX2     | Resnet 10 | 30      |
+| mxVision      |昇腾310        | YOLOv3    | 15-20   |
+
+框架	学习门槛	平台	性能分析
+			设备	模型	帧率
+FlexiVision	Low	GPU/TPU/VPU	Jetson TX2/Raspberry Pi 4 + Coral USB Accelerator/Raspberry Pi 4 + Intel NCS2	MobileNet-SSD v2/
+DeepLabV3+	10-30
+DeepStream	High	NVIDIA GPU	Jetson TX2	Resnet 10	30
+mxVision	High	Ascend AI Processor	昇腾310	YOLOv3	15-20
 
 ## Dependencies
 
