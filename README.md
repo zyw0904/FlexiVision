@@ -62,7 +62,8 @@ In the following table, we compare FlexiVision with DeepStream and mxVision base
 |           **performance analysis**|
 | **Framework** | **Equipment** | **Model** | **FPS** |
 |---------------|---------------|-----------|---------|
-| FlexiVision   |Jetson TX2/Raspberry Pi 4 + Coral USB Accelerator/Raspberry Pi 4 + Intel NCS2| MobileNet-SSD v2/DeepLabV3+ | 10-30 |
+| FlexiVision   |Jetson TX2/Raspberry Pi 4 
+                 + Coral USB Accelerator/Raspberry Pi 4 + Intel NCS2| MobileNet-SSD v2/DeepLabV3+ | 10-30 |
 | DeepStream    |Jetson TX2     | Resnet 10 | 30      |
 | mxVision      |昇腾310        | YOLOv3    | 15-20   |
 
