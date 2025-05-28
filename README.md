@@ -49,10 +49,11 @@ What this video contains: Video analysis on different devices using a graphical 
 
 ![](./docs/3-17.png)
 
-In order to further demonstrate the reasoning performance of FlexiVision on different edge heterogeneous devices, we also implement some reasoning models on different devices to verify the feasibility of FlexiVision on different edge devices as shown in Figure 317. We use FlexiVision to implement vehicle recognition, fire detection and target detection tasks in three devices respectively.
+In order to further demonstrate the reasoning performance of FlexiVision on different edge heterogeneous devices, we also implement some reasoning models on different devices to verify the feasibility of FlexiVision on different edge devices. We use FlexiVision to implement vehicle recognition, fire detection and target detection tasks in three devices respectively.
 
 ## Contrast
 
+In order to enhance the comparative evaluation of FlexiVision and the current mainstream intelligent video analysis framework, we also conducted experimental tests on the current mainstream video analysis frameworks DeepStream and mxVision, the results of the experiment are shown in the figure below.
 
 
 ## Dependencies
