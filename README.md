@@ -47,6 +47,10 @@ The following is a graphical development interface:
 
 What this video contains: Video analysis on different devices using a graphical development interface, including real-time control of external hardware hardware.
 
+![](./docs/3-17.png)
+
+In order to further demonstrate the reasoning performance of FlexiVision on different edge heterogeneous devices, we also implement some reasoning models on different devices to verify the feasibility of FlexiVision on different edge devices as shown in Figure 317. We use FlexiVision to implement vehicle recognition, fire detection and target detection tasks in three devices respectively
+
 ## Dependencies
 
 Platforms
